@@ -14,9 +14,9 @@ export function TodoList({ todos, onDeleteItem }) {
           return (
             // TODO: Update component props
             <TodoItem
+              // TODO: Update component props
               id={itemData.item.id}
-              title={itemData.item.title}
-              description={itemData.item.description}
+              text={itemData.item.text}
               onDeleteItem={onDeleteItem}
             />
           );

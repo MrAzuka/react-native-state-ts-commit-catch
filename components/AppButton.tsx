@@ -3,8 +3,8 @@ import { Pressable, StyleSheet, Text } from "react-native";
 import { colors } from "../assets/theme";
 
 type AppButtonProps = {
-  text: string;
-  onPress: () => void;
+  readonly text: string;
+  readonly onPress: () => void;
 };
 
 export function AppButton({ text, onPress }: AppButtonProps): ReactElement {

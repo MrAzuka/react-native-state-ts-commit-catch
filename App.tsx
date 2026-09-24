@@ -1,3 +1,4 @@
+import type { ReactElement } from "react";
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
@@ -6,7 +7,7 @@ import { PageFooter } from "./components/PageFooter";
 import { TodoSection } from "./components/TodoSection";
 import { colors } from "./assets/theme";
 
-export default function App() {
+export default function App(): ReactElement {
   return (
     <SafeAreaView style={styles.safeArea}>
       <View style={styles.scrollContent}>

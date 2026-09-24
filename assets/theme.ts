@@ -1,4 +1,3 @@
-// theme.jsx
 // Catppuccin Mocha palette — the single source of truth for color.
 // Every component's StyleSheet should pull from `colors` instead of
 // hardcoding hex values.
@@ -18,4 +17,4 @@ export const colors = {
   red: "#f38ba8",
   peach: "#fab387",
   yellow: "#f9e2af",
-};
+} as const;

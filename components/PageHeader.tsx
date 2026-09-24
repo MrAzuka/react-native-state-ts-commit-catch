@@ -1,7 +1,8 @@
+import type { ReactElement } from "react";
 import { StyleSheet, Text, View } from "react-native";
 import { colors } from "../assets/theme";
 
-export function PageHeader() {
+export function PageHeader(): ReactElement {
   return (
     <View style={styles.header}>
       <Text style={styles.headerTitle}>Check It!</Text>
@@ -9,6 +10,7 @@ export function PageHeader() {
     </View>
   );
 }
+
 
 const styles = StyleSheet.create({
   header: {

@@ -10,4 +10,13 @@ export function PageFooter(): ReactElement {
   );
 }
 
-// styles unchanged
+const styles = StyleSheet.create({
+  footer: {
+    alignItems: "center",
+    paddingVertical: 24,
+  },
+  footerText: {
+    fontSize: 14,
+    color: colors.overlay,
+  },
+});
